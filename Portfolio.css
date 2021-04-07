@@ -1,0 +1,377 @@
+* {
+    margin: 0%;
+    padding: 0;
+    margin: auto;
+}
+
+
+/* ---------------------------------------box 1--------------------------------------------------- */
+
+.box {
+    width: 80%;
+    height: 100vh;
+    background-color: whitesmoke;
+    float: right;
+}
+
+.box img {
+    width: 26%;
+    height: 31vh;
+    margin-top: 450px;
+    box-sizing: border-box;
+    float: left;
+    border: 5px solid #0C2D48;
+}
+
+.name {
+    width: 50%;
+    height: 35vh;
+    background-color: whitesmoke;
+    margin-top: 40px;
+    margin-left: 20px;
+    position: absolute;
+}
+
+
+/* ---------------------------------------box 2--------------------------------------------------- */
+
+.portfolio {
+    width: 30%;
+    height: 45vh;
+    background-color: white;
+    margin-top: 331px;
+    margin-left: 400px;
+}
+
+.portfolio img {
+    width: 101%;
+    height: 45vh;
+    margin-top: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------------------------------------box 2--------------------------------------------------- */
+
+.pic {
+    width: 20%;
+    height: 55vh;
+    background-color: white;
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 450px;
+}
+
+.pic img {
+    width: 101%;
+    height: 55vh;
+    margin-top: 0;
+}
+
+
+/* ---------------------------------------left box 1--------------------------------------------------- */
+
+.menu {
+    width: 20%;
+    height: 100vh;
+    background-color: #ffffff;
+    float: left;
+    position: fixed;
+}
+
+
+/* ---------------------------------------left box 2--------------------------------------------------- */
+
+.menu1 {
+    width: 80%;
+    height: 50vh;
+    background-color: #0C2D48;
+    float: left;
+    position: absolute;
+    margin-top: 100%;
+    margin-left: 10%;
+    box-shadow: 4px 4px 8px black;
+    border-radius: 10px;
+}
+
+.menu img {
+    width: 175px;
+    height: 175px;
+    border-radius: 100%;
+    position: absolute;
+    top: 5%;
+    left: 17%;
+    border: 4px solid #0C2D48;
+}
+
+
+/* ---------------------------------------left box 2(contain)--------------------------------------------------- */
+
+ul {
+    padding-top: 25%;
+    padding-left: 30%;
+    list-style-type: none;
+}
+
+li {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 30px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: -6px;
+}
+
+
+/* ---------------------------------------Icon 1--------------------------------------------------- */
+
+.home {
+    position: absolute;
+    left: 16%;
+    top: 16%;
+    font-size: 160%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.home::before {
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: -162px;
+    border-bottom: 3px solid white;
+    transition: 1s;
+}
+
+.home:hover::before {
+    content: '';
+    width: 115px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+
+/* ---------------------------------------Icon 2--------------------------------------------------- */
+
+.about {
+    position: absolute;
+    left: 15%;
+    top: 32%;
+    font-size: 160%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about::before {
+    content: '';
+    width: 155px;
+    position: absolute;
+    top: 100%;
+    left: -230px;
+    border-bottom: 3px solid white;
+    transition: 1s;
+}
+
+.about:hover::before {
+    content: '';
+    width: 155 px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+
+/* ---------------------------------------Icon 3--------------------------------------------------- */
+
+.contact {
+    position: absolute;
+    left: 16%;
+    top: 80%;
+    font-size: 160%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contact::before {
+    content: '';
+    width: 0;
+    position: absolute;
+    top: 100%;
+    left: -215px;
+    border-bottom: 3px solid white;
+    transition: 1s;
+}
+
+.contact:hover::before {
+    content: '';
+    width: 173px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+
+/* ---------------------------------------Icon 4--------------------------------------------------- */
+
+.resume {
+    position: absolute;
+    left: 18%;
+    top: 48%;
+    font-size: 160%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resume::before {
+    content: '';
+    width: 0px;
+    position: absolute;
+    top: 100%;
+    left: -162px;
+    border-bottom: 3px solid white;
+    transition: 1s;
+}
+
+.resume:hover::before {
+    content: '';
+    width: 132px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+
+/* ---------------------------------------Icon 5--------------------------------------------------- */
+
+.skill {
+    position: absolute;
+    left: 16%;
+    top: 64%;
+    font-size: 160%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skill::before {
+    content: '';
+    width: 0px;
+    position: absolute;
+    top: 100%;
+    left: -162px;
+    border-bottom: 3px solid white;
+    transition: 1s;
+}
+
+.skill:hover::before {
+    content: '';
+    width: 100px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+
+
+/* ---------------------------------------Bar Lines--------------------------------------------------- */
+
+.box1 {
+    width: 80%;
+    height: 100vh;
+    background-color: white;
+    float: right;
+}
+
+.bar {
+    width: 70%;
+    height: 10px;
+    border: 1px solid #0C2D48;
+    position: absolute;
+    border-radius: 3px;
+    overflow: hidden;
+    margin-left: 10px;
+    box-shadow: 0 0 8px #2187e7b3;
+}
+
+.bar span {
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+
+
+/* ---------------------------------------HTML bar--------------------------------------------------- */
+
+.html {
+    width: 95%;
+    border: 4px solid;
+    animation: html 2s;
+}
+
+@keyframes html {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 95%;
+    }
+}
+
+
+/* ---------------------------------------CSS bar--------------------------------------------------- */
+
+.CSS {
+    width: 80%;
+    border: 4px solid;
+    animation: CSS 2s;
+}
+
+@keyframes CSS {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+
+/* ---------------------------------------javascript bar--------------------------------------------------- */
+
+.javascript {
+    width: 70%;
+    border: 4px solid;
+    animation: javascript 2s;
+}
+
+@keyframes javascript {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 70%;
+    }
+}
+
+
+/* ---------------------------------------jquery bar--------------------------------------------------- */
+
+.jquery {
+    width: 50%;
+    border: 4px solid;
+    animation: jquery 2s;
+}
+
+@keyframes jquery {
+    0% {
+        width: 0px;
+    }
+    100% {
+        width: 50%;
+    }
+}
